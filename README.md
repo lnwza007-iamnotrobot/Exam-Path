@@ -1,1 +1,64 @@
 # Exam-Path
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initail-acale=(1.0)">
+  <title>EXAM PATH</title>
+
+  <link rel="stylesheet" href="Create.css">
+</head>
+  <body>
+    <header id="site-header">
+      
+      <h1 id="main-title">EXAM PATH</h1>
+      
+      <p id="subtitle">
+        your exam. your path. your future.
+      </p>
+      
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#">Practice</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2>เลือกสนามสอบ</h2>
+
+        <div class="exam-container">
+          
+          <div class="exam-card" id="alevel">
+            <h3>A-level</h3>
+            <p>วิชาสามัญ</p>
+          </div>
+
+          <div class="exam-card" id="tgat">
+            <h4>TGAT</h4>
+            <p>ความถนัดทั่วไป</p>
+          </div>
+
+          <div class="exam-card" id="tpat">
+            <h5>TPAT</h5>
+            <p>ความถนัดเฉพาะทาง</p>
+          </div>
+          
+        </div>
+      </section>
+
+      <button class="exam-btn">Start Exam</button>
+
+      <button class="exam-btn">View Scores</button>
+    </main>
+
+    <footer>
+      <p>EXAM PATH © 2026</p>
+    </footer>
+
+    <script src="Back up.js"></script>
+  </body>
+  
+</html>
